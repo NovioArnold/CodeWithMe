@@ -15,7 +15,7 @@ const App = () => {
     useEffect(() => {
         dispatch(getPosts()); // dispatch is a method that takes an action as an argument and sends it to the reducer.  
     }, [dispatch]);
-
+    
     return (
         <>
         <Container maxWidth="lg">
