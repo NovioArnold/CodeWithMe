@@ -1,3 +1,4 @@
+//import statements 
 import React from "react";
 import { Card , CardActions, CardContent, CardMedia, Button, Typography } from "@material-ui/core";
 import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAlt";
@@ -6,6 +7,7 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 import useStyles from "./styles";
 import moment from "moment";
 
+//post component
 const Post = ({ setCurrentId, post }) => {
   const classes = useStyles();
   return (

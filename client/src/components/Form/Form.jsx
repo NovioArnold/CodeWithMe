@@ -1,3 +1,4 @@
+// import statements
 import React, { useState, useEffect } from "react";
 import { Paper, TextField, Button, Typography } from "@material-ui/core";
 import FileBase from "react-file-base64";
@@ -7,7 +8,7 @@ import useStyles from "./styles";
 import { createPost, updatePost } from "../../actions/posts";
 
 
-
+// Form component
 const Form = ({ currentId, setCurrentId }) => {
   useEffect (() => {
     if (post) setPostData(post)

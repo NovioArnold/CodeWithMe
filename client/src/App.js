@@ -1,3 +1,4 @@
+// imports
 import React, { useState, useEffect } from "react";
 import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
 import { useDispatch } from "react-redux"; // useDispatch is a hook that returns the dispatch method from the Redux store, which is used to dispatch actions and trigger state changes to the store.
@@ -8,6 +9,7 @@ import Posts from "./components/Posts/Posts";
 import Form from "./components/Form/Form";
 import useStyles from "./styles";
 
+// app component
 const App = () => {
     const [currentId, setCurrentId] = useState(null);
     const classes = useStyles();

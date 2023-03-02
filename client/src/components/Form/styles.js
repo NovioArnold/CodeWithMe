@@ -1,6 +1,7 @@
-
+//import statements
 import { makeStyles } from '@material-ui/core/styles';
 
+//Style for the form element
 export default makeStyles((theme) => ({
   root: {
     '& .MuiTextField-root': {
